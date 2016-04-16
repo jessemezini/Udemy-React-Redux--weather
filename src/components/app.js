@@ -1,10 +1,15 @@
-import React from 'react';
-import { Component } from 'react';
+import React, { Component } from 'react';
+
+import SearchBarContainer from './SearchBarContainer';
+import WeatherListContainer from './WeatherListContainer';
 
 export default class App extends Component {
   render() {
     return (
-      <div>React simple starter</div>
+      <div>
+        <SearchBarContainer />
+        <WeatherListContainer />
+      </div>
     );
   }
 }
